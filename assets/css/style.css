@@ -42,10 +42,14 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+#cover-text, #cover-text h2{
+    color: #fff;
+}
 #hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
+    position: relative;
 }
 #hero-image {
     height: 600px;
@@ -66,4 +70,18 @@ animation-fill-mode: forwards;
     to{
         transform: scale(1.1);
     }
+}
+#cover-text{
+    font-size: 130%;
+    font-family: Oswald, sans-serif ;
+    text-transform: uppercase;
+    width: 300px;
+    height: 200px;
+    letter-spacing: 4px;
+    padding-left: 10px;
+    padding-top: 40px;
+    background-color: rgba(241, 109, 107, .7);
+    bottom: 30px;
+    right: 150px;
+    position: absolute;
 }
