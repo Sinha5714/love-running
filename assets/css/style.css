@@ -189,3 +189,12 @@ footer {
     color: #3a3a3a;
     
 }
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+#photos > img{
+    width: 100%;
+}
