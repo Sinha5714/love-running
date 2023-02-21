@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+* {
+    padding: 0;
+    border: none;
+    margin: 0;
+}
 body{
-    font-family: Arial;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
 }
